@@ -1,6 +1,11 @@
 import { CiMap } from "react-icons/ci";
 import { FaCreditCard, FaImages } from "react-icons/fa";
-
+import Image1 from "./public/graphic-desing.png";
+import Image2 from "./public/Software-development.jpg";
+import Image3 from "./public/web-development.png";
+import Image4 from "./public/person1.jpg";
+import Image5 from "./public/person2.jpg";
+import Image6 from "./public/person3.jpg";
 export const cardData = [
   {
     id: 1,
@@ -34,7 +39,7 @@ export const cardData = [
 export const coursesData = [
   {
     id: 1,
-    img: "./public/graphic-desing.png",
+    img : Image1,
     department: "Graphic Design",
     title: "UI & UX Design",
     rating: "4.7",
@@ -48,7 +53,7 @@ export const coursesData = [
   },
   {
     id: 2,
-    img: "./public/Software-development.jpg",
+    img: Image2,
     department: "Software Development",
     title: "Project Design",
     rating: "4.6",
@@ -62,7 +67,7 @@ export const coursesData = [
   },
   {
     id: 3,
-    img: "./public/web-development.png",
+    img: Image3,
     department: "Web Development",
     title: "HTML & CSS",
     rating: "4.9",
@@ -80,7 +85,7 @@ export const ratingData = [
   {
     id: 1,
     stars: " ★ ★ ★ ★ ★",
-    img: "./public/person1.jpg",
+    img: Image4,
     description:
       "This course exceeded my expectation! The content was well-organized, the explanations were clear, and the hands-on projects helped me build real-world skills. Highly recommend it to anyone looking to learn!",
     name: "Gamal Mahmoud",
@@ -89,7 +94,7 @@ export const ratingData = [
   {
     id: 2,
     stars: " ★ ★ ★ ★ ☆",
-    img: "./public/person2.jpg",
+    img: Image5,
     description:
       "This course exceeded my expectation! The content was well-organized, the explanations were clear, and the hands-on projects helped me build real-world skills. Highly recommend it to anyone looking to learn!",
     name: "Omar Mahamed",
@@ -98,7 +103,7 @@ export const ratingData = [
   {
     id: 3,
     stars: " ★ ★ ★ ★ ★",
-    img: "./public/person3.jpg",
+    img: Image6,
     description:
       "This course exceeded my expectation! The content was well-organized, the explanations were clear, and the hands-on projects helped me build real-world skills. Highly recommend it to anyone looking to learn!",
     name: "Islam Tarek",

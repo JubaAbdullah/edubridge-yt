@@ -3,7 +3,7 @@ import { FaBookOpen, FaChevronRight, FaStar } from 'react-icons/fa'
 import { IoMdAlarm } from 'react-icons/io'
 export default function Course({ img , department , title , rating ,description, sales ,price ,discount ,duration,lessons}) {
   return (
-    <div className='course'>
+    <div className='course' id='products'>
         <span className='sale'>Sale</span>
         <img src={img} alt="photo"/>
         <div className='content'>
